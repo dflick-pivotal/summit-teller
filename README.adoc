@@ -2,14 +2,14 @@ image:https://circleci.com/gh/spring-cloud-services-samples/fortune-teller.svg?s
 
 = Summit Teller
 
-*Fortune Teller* is a very basic application composed of two services:
+*Summit Teller* is a very basic application composed of two services:
 
 . link:fortune-teller-fortune-service[Fortune Service] - serves up random Chinese fortune cookie fortunes
 . link:fortune-teller-ui[Fortune UI] - presents a UI that consumes the fortune service
 
 It leverages libraries and services from Spring Cloud and Netflix OSS to compose the system.
 
-Fortune Teller is deployable to any Cloud Foundry environment utilizing the service components that have been packaged with the project.
+Summit Teller is deployable to any Cloud Foundry environment utilizing the service components that have been packaged with the project.
 However, it is most easily deployed to Pivotal Cloud Foundry environments that have installed the https://network.pivotal.io/products/p-spring-cloud-services[Spring Cloud Services] package.
 
 == Build
@@ -20,7 +20,7 @@ However, it is most easily deployed to Pivotal Cloud Foundry environments that h
 $ mvn clean package
 ----
 +
-Maven will automatically download all of _Fortune Teller_'s dependencies. This may take a few moments.
+Maven will automatically download all of _Summit Teller_'s dependencies. This may take a few moments.
 
 
 == Deploy to Pivotal Cloud Foundry with Spring Cloud Services
